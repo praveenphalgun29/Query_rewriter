@@ -1,0 +1,95 @@
+[
+  {
+    "user_id": 1,
+    "persona_name": "Tech Enthusiast",
+    "context": {
+      "location": "San Francisco",
+      "interests": ["gaming", "latest gadgets", "software development"],
+      "expertise": "high"
+    },
+    "queries": [
+      {
+        "original_query": "best laptop",
+        "ground_truth_rewrite": "best laptop for software development with long battery life"
+      },
+      {
+        "original_query": "good headphones",
+        "ground_truth_rewrite": "noise-cancelling over-ear headphones for office use"
+      },
+      {
+        "original_query": "new phone",
+        "ground_truth_rewrite": "latest flagship smartphones with the best camera"
+      },
+      {
+        "original_query": "recommend a keyboard",
+        "ground_truth_rewrite": "recommend a mechanical keyboard with cherry mx brown switches"
+      },
+      {
+        "original_query": "what is a cpu",
+        "ground_truth_rewrite": "technical explanation of a CPU's architecture for an expert audience"
+      }
+    ]
+  },
+  {
+    "user_id": 2,
+    "persona_name": "Budget Traveler",
+    "context": {
+      "location": "London",
+      "interests": ["backpacking", "history"],
+      "budget": "low"
+    },
+    "queries": [
+      {
+        "original_query": "hotels in Paris",
+        "ground_truth_rewrite": "cheap hostels near the city center in Paris"
+      },
+      {
+        "original_query": "how to get around Berlin",
+        "ground_truth_rewrite": "how to use public transport in Berlin on a budget"
+      },
+      {
+        "original_query": "food in Lisbon",
+        "ground_truth_rewrite": "best affordable local restaurants in Lisbon"
+      },
+      {
+        "original_query": "museums in Amsterdam",
+        "ground_truth_rewrite": "free museums to visit in Amsterdam"
+      },
+      {
+        "original_query": "flights to Rome",
+        "ground_truth_rewrite": "cheapest flights from London to Rome in November"
+      }
+    ]
+  },
+  {
+    "user_id": 3,
+    "persona_name": "Health-Conscious Home Cook",
+    "context": {
+      "location": "Portland",
+      "dietary_needs": ["vegetarian", "gluten-free"],
+      "preferences": ["organic"]
+    },
+    "queries": [
+      {
+        "original_query": "salad recipe",
+        "ground_truth_rewrite": "high-protein vegetarian quinoa salad recipe"
+      },
+      {
+        "original_query": "bakeries near me",
+        "ground_truth_rewrite": "gluten-free bakeries in Portland"
+      },
+      {
+        "original_query": "where to buy vegetables",
+        "ground_truth_rewrite": "where to buy organic vegetables at a farmers market in Portland"
+      },
+      {
+        "original_query": "healthy dinner ideas",
+        "ground_truth_rewrite": "quick vegetarian and gluten-free dinner ideas"
+      },
+      {
+        "original_query": "what is sourdough",
+        "ground_truth_rewrite": "health benefits of organic sourdough bread for a gluten-sensitive diet"
+      }
+    ]
+  }
+]
