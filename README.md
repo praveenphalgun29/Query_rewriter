@@ -11,8 +11,8 @@ Each user has a `context` object and a list of `queries`, where each query has a
 ## Setup and Execution
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/praveenphalgun29/Query_rewriter]
-    cd [Query_rewriter]
+    git clone https://github.com/praveenphalgun29/Query_rewriter
+    cd Query_rewriter
     ```
 2.  **Install dependencies:**
     ```bash
